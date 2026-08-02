@@ -16,3 +16,13 @@ console.log(arr);
 
 arr.splice(2, 1);
 console.log(arr);
+
+let fam=["Dinoop", "Anjana", "Ayush", "Divakaran"];
+let max=fam[0];
+for(let i=0;i<fam.length;i++){
+    if(fam[i]>max){
+        max=fam[i];
+    }
+}
+
+console.log(max);
